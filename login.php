@@ -16,9 +16,7 @@
 		<hr>
 		<form method="POST" action="chkpass.php">
 			<table width=400 border=0>
-			
-<input type="hidden" name="redir" value=<?php echo $redir; ?>>
-			
+			<input type="hidden" name="redir" value=<?php echo $redir; ?>>
 			<tr><td>帳號：</td><td><input type="text" name="username"></td></tr>
 			<tr><td>電子郵件：</td><td><input type="text" name="email"></td></tr>
 			<tr><td>密碼：</td><td><input type="password" name="password"></td></tr>

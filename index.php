@@ -2,6 +2,7 @@
 	session_start(); 
 	$username = $_SESSION["username"];
 	$email = $_SESSION["email"];
+
 ?>
 <!DOCTYPE html>
 <html>
@@ -24,6 +25,9 @@
 		} else {
 			echo "歡迎親愛的訪客，請登入以檢視更多的訊息！<br>";
 		}
+		echo "<hr>";
+		//以下引入頁尾的程式碼
+		include "footer.php";
 		?>
 	</body>
 </html>
